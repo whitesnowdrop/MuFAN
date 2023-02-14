@@ -23,7 +23,6 @@ MuFAN proposes a novel online continual learning framework that utilizes multi-s
 The `data/` folders contains the train and test splits for the miniImageNet and CORE50 benchmarks. Download the raw data and modify the path in the `csv` files to point to the raw data folder.
 
 ### 2. Run experiments
-To replicate the results, run
 ```
 chmod +x scripts/task_aware.sh
 bash scripts/task_aware.sh 0
